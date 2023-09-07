@@ -41,4 +41,4 @@ make install # Optional
 To run the client correctly, layout files must be located in the project's working directory: `qwerty.json`,
 `colemak.json`, `dvorak.json`.
 
-To ensure the server works correctly, you also need to build and execute the dictionaries-interface target, which initializes dictionaries. All text dictionaries should be in the working folder in dicts/, and DLL dictionaries should simply be in the root folder.
+To ensure the server works correctly, you also need to build and execute the `dictionaries-interface` target, which initializes dictionaries. All text dictionaries should be in the working folder in `dicts/`, and DLL dictionaries should simply be in the root folder.
